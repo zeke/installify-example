@@ -1,1 +1,1 @@
-var alphabet = require('alphabet')
+const alphabet = require('alphabet')

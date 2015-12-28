@@ -4,16 +4,24 @@ A small programmatic demo of [installify](https://github.com/hughsk/installify#r
 
 ## Running the Example
 
+Node >=4 is required for this to work, because it uses ES2015 stuff.
+
 ```sh
 npm test
 ```
 
+The output is the result of piping [./lazy.js](lazy.js) through `installify` and `babelify`.
+
+The [alphabet](http://npm.im/alphabet) dependency is installed automatically, and even added to package.json.
+
 ## Dependencies
 
+- [alphabet](https://github.com/jonschlinkert/alphabet): The english alphabet as a string or array, upper and lowercase.
+- [babel-preset-es2015](https://github.com/babel/babel/tree/master/packages): Babel preset for all es2015 plugins.
+- [babelify](https://github.com/babel/babelify): Babel browserify transform
 - [browserify](https://github.com/substack/node-browserify): browser-side require() the node way
 - [concat-stream](https://github.com/maxogden/concat-stream): writable stream that concatenates strings or binary data and calls a callback with the result
 - [installify](https://github.com/hughsk/installify): A browserify transform that automatically installs missing dependencies
-
 
 ## License
 
