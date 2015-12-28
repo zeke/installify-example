@@ -1,0 +1,29 @@
+{
+  "name": "installify-example",
+  "version": "1.0.0",
+  "description": "A small programmatic demo of installify",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": "github:zeke/installify-example",
+  "keywords": [
+    "installify",
+    "lazy",
+    "browserify",
+    "install",
+    "npm",
+    "modules"
+  ],
+  "author": "zeke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeke/installify-example/issues"
+  },
+  "homepage": "https://github.com/zeke/installify-example#readme",
+  "dependencies": {
+    "browserify": "^12.0.1",
+    "concat-stream": "^1.5.1",
+    "installify": "^1.0.2"
+  }
+}
